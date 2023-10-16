@@ -20,6 +20,35 @@ Are you looking for a reliable, versatile, and hassle-free media streaming solut
 - Real-time Prometheus-compatible metrics.
 - Customizable external command hooks.
 
+
+**Send (Publish) Support**
+
+| Protocol         | Variants                               | Video Codecs                                | Audio Codecs                            |
+|------------------|---------------------------------------|--------------------------------------------|----------------------------------------|
+| SRT clients      |                                       | H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3 |
+| SRT cameras and servers |                           | H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3 |
+| WebRTC clients   | Browser-based, WHIP                   | AV1, VP9, VP8, H.264                       | Opus, G722, G711                       |
+| WebRTC servers   | WHEP                                  | AV1, VP9, VP8, H.264                       | Opus, G722, G711                       |
+| RTSP clients     | UDP, TCP, RTSPS                       | AV1, VP9, VP8, H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video, M-JPEG and any RTP-compatible codec | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3, G726, G722, G711, LPCM and any RTP-compatible codec |
+| RTSP cameras and servers | UDP, UDP-Multicast, TCP, RTSPS | AV1, VP9, VP8, H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video, M-JPEG and any RTP-compatible codec | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3, G726, G722, G711, LPCM and any RTP-compatible codec |
+| RTMP clients     | RTMP, RTMPS, Enhanced RTMP            | AV1, VP9, H.265, H.264                    | MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3) |
+| RTMP cameras and servers | RTMP, RTMPS, Enhanced RTMP  | H.264                                    | MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3) |
+| HLS cameras and servers | Low-Latency HLS, MP4-based HLS, legacy HLS | AV1, VP9, H.265, H.264          | Opus, MPEG-4 Audio (AAC)              |
+| UDP/MPEG-TS      | Unicast, broadcast, multicast         | H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3 |
+| Raspberry Pi Cameras |                            | H.264                                    |                                        |
+
+**Receive (Playback) Support**
+
+| Protocol         | Variants                               | Video Codecs                                | Audio Codecs                            |
+|------------------|---------------------------------------|--------------------------------------------|----------------------------------------|
+| SRT              |                                       | H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3 |
+| WebRTC           | Browser-based, WHEP                   | AV1, VP9, VP8, H.264                       | Opus, G722, G711                       |
+| RTSP             | UDP, UDP-Multicast, TCP, RTSPS         | AV1, VP9, VP8, H.265, H.264, MPEG-4 Video (H.263, Xvid), MPEG-1/2 Video, M-JPEG and any RTP-compatible codec | Opus, MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3), AC-3, G726, G722, G711, LPCM and any RTP-compatible codec |
+| RTMP             | RTMP, RTMPS, Enhanced RTMP            | H.264                                    | MPEG-4 Audio (AAC), MPEG-1/2 Audio (MP3) |
+| HLS              | Low-Latency HLS, MP4-based HLS, legacy HLS | AV1, VP9, H.265, H.264          | Opus, MPEG-4 Audio (AAC)              |
+```
+```
+
 ## Stream with Confidence
 
 **Publish Live Streams:**
