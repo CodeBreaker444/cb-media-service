@@ -88,7 +88,7 @@ Experience the future of media streaming with CB Media Service. Subscribe now an
 **Contact us today for a free demo and pricing details:**
 
 - Email: zeroerror.444@gmail.com
-- Website: [https://govardhanchitrada.co](govardhanchitrada.com)
+- Website: [https://govardhanchitrada.com](govardhanchitrada.com)
 
 
 
